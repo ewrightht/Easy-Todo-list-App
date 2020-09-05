@@ -1,5 +1,5 @@
 # Todo List App
-This is a easy TODO list app made with Nodejs and Firebase, using Express as Node framework. Also using Realtime Database with Firebase.
+This is an easy TODO list app made with Nodejs and Firebase, using Express as Node framework. Also using Realtime Database with Firebase.
 
 ## Requirements
 - Have installed NPM as packet manager.
