@@ -1,0 +1,30 @@
+<div class="container my-5">
+  <div class="d-flex justify-content-center">
+    <form class="w-75" action="/add" method="POST">
+      <div class="card">
+        <div class="card-body">
+          <div class="form-group">
+            <input class="form-control" type="text" name="inputTask" autocomplete="off">
+          </div>
+          <div class="form-group text-center">
+            <button class="btn btn-primary btn-lg w-50">Add</button>
+          </div>
+        </div>
+        <div class="card-footer">
+            {{#if tasks}}
+            <ul>
+              {{#each tasks}}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  {{this}}
+                  <a href="/delete-task/{{@key}}" class="btn btn-danger">Delete</a>
+                </li>
+              {{/each}}
+            </ul>
+            {{else}}
+              <h4 class="text-muted">No tasks yet</h4>
+            {{/if}}
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
