@@ -13,7 +13,7 @@ npm i
 Wait to install all modules used in this proyect.
 
 ## Run App
-After completed installation, left to use 
+After completed installation, use 
 ```
 npm start
 ```
