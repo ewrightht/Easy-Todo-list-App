@@ -2,7 +2,6 @@ const express = require("express");
 const route = require("./routes/routes");
 const handlebars = require("express-handlebars");
 const bodyParser = require("body-parser");
-const firebase = require('firebase-admin');
 
 const app = express();
 
